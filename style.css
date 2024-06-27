@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    background-color: cyan;
+}
+.container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#log, #state {
+    width: 600px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.btns, .status-container  {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: rgb(58, 162, 94);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
